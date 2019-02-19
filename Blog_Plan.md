@@ -1,5 +1,3 @@
-post plan
-
 progress on meltybrain so far
 - copy halo
 - proof of concept
@@ -8,7 +6,6 @@ progress on meltybrain so far
 - various revisions (diameter keeps increasing)
 
 fire bot
-- we want to do this
 - our plan to make $
 - motors with wheels and encoders
 - treat it like a micromouse (IR sensors)
@@ -16,12 +13,12 @@ fire bot
 past robots
 - nanobyte
 - fairybyte
-
-MiniFRC
--comps 2 - 7
-
-Science olympaid
 - scarecrow
-
-FEED
 - hoverbot
+
+FRC
+- MiniFRC
+- 2016
+- 2017
+- 2018
+
