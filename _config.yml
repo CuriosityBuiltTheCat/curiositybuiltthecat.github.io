@@ -1,5 +1,5 @@
 name: Alfredo Electronics
-description: Dumb blog for robots
+description: Engineering for the pathalogically competitive
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
@@ -9,7 +9,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: jrw4561@gmail.com
   facebook:
   flickr:
   github: AlfredoElectronics
