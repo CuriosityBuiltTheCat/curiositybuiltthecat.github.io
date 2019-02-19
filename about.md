@@ -2,14 +2,14 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+under construction
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jrw4561@gmain.com](mailto:jrw4561@gmain.com)
