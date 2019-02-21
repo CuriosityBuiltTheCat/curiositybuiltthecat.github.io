@@ -10,29 +10,20 @@ prose:
         field:
           element: "checkbox"
           label: "Publish now"
-          help: "Keep this unchecked if you do not want to   publish the article right now"
+          help: "Keep this unchecked if you do not want to publish the article right now"
           value: "true"
       - name: "layout"
         field:
-          element: "hidden"
+          element: "text"
           value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Enter title of the Article"
           placeholder: "Enter Title"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          value: "CURRENT_DATETIME"
-      - name: "author"
-        field:
-          element: "hidden"
-          value: "Revanth Revoori"
       - name: "categories"
         field:
-          element: "hidden"
+          element: "text"
           value: "blog"
           alterable: "true"
       - name: "tags"
@@ -44,10 +35,6 @@ prose:
             - name: "Blog"
               value: "blog"
           alterable: true
-      - name: "excerpt_separator"
-        field:
-          element: "text"
-          value: "<!--more-->"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
