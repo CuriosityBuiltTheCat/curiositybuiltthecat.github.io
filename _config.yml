@@ -2,6 +2,13 @@ name: Alfredo Electronics
 description: Engineering for the pathalogically competitive
 avatar: https://AlfredoElectronics.github.io/images/alfredo1.jpg
 
+metadata:
+  _posts:
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
