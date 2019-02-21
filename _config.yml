@@ -14,7 +14,7 @@ prose:
           value: "true"
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           value: "post"
       - name: "title"
         field:
@@ -23,7 +23,7 @@ prose:
           placeholder: "Enter Title"
       - name: "categories"
         field:
-          element: "text"
+          element: "hidden"
           value: "blog"
           alterable: "true"
       - name: "tags"
