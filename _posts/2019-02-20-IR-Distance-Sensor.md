@@ -9,4 +9,6 @@ One of the most important ability an autonamous robot could have is the ability 
 
 I learned of a better sensor when researching MicroMouse. Most MicroMice use custom IR distance sensors.
 
+<img src="({{site.baseurl}}/images/HC-SR04.jpg" width="200" height="200" />
 
+![smiley]({{site.baseurl}}/images/HC-SR04.jpg){:height="36px" width="36px"}.
