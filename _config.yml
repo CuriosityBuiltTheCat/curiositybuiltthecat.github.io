@@ -4,7 +4,7 @@ avatar: https://AlfredoElectronics.github.io/images/alfredo1.jpg
 
 # Prose.io Config
 prose:
-  media: 'assests/media'
+  media: 'images'
   metadata:
     _posts:
       - name: "published"
