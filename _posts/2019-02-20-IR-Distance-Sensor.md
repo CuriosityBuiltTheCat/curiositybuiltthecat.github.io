@@ -24,8 +24,8 @@ distance = (1 / (a * analogIn + b)) - k
 
 I wasent super concerned about precision in this proof of concept so to find a, b, and k I measured some known distances and recorded the corrisponding analog output.
 
-| Analog value (0-1023) | Distance (mm) |
-|---+---|
+| Analog value (0-1023) | Distance (mm): |
+|===+===|
 | 971 | 20 |
 | 810 | 25 |
 | 440 | 60 |
@@ -54,10 +54,3 @@ In the first test I wanted to have the robot mantain a constand distance from wh
 
 
 There is a lot that can be improved but for now I am going to call this a success, in my next test I am going to rotate the sensor 90 degrees and see if I can get it to follow a wall while remaining a constant distance from it.
-
-
-
-
-
-
-
