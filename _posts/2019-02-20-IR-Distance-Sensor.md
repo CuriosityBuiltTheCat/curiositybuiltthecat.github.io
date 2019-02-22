@@ -8,7 +8,7 @@ One of the most important things an autonamous robot must be able to do is see a
 
 ![]({{site.baseurl}}/images/HC-SR04.jpg){:height="120px" width="120px"}.
 
-In the past I have used the ever popular HC-SR04 ultrasonic distance sensor modules, however for an upcoming project I need something less bulky and more precise. I want to use IR distance sensors. IR distance sensors have two main components, an IR LED and an IR phototransistor. The LED shines on a nearby surface while the phototransistor measures how much of the IR light bounces back. Awhile back I bought some digital IR distance senors off of amazon but I wanted an analog output. I canablized some of the components and built a prototype based off of some recommended resistor values I found online. Here is my schematic.
+In the past I have used the ever popular HC-SR04 ultrasonic distance sensor modules, however for an upcoming project I need something less bulky and more precise. I want to use IR distance sensors. IR distance sensors have two main components, an IR LED and an IR phototransistor. The LED shines on a nearby surface while the phototransistor measures how much of the IR light bounces back. Awhile back I bought some digital IR distance senors off of [amazon](https://www.amazon.com/OSOYOO-Infrared-Obstacle-Avoidance-Arduino/dp/B01I57HIJ0/ref=sr_1_4?ie=UTF8&qid=1550812474&sr=8-4&keywords=ir+distance+sensor) but now I want an analog output. I canablized the LED and phototransistor and built a prototype based off of some recommended resistor values I found online. Here is my schematic.
 
 ![IRsensorSchematic.png]({{site.baseurl}}/images/IRsensorSchematic.png)
 
@@ -17,6 +17,28 @@ I didnt have any 100 ohm resistors so I used two 200 ohm resistors in parallel. 
 ![IMG_20190221_234129.jpg]({{site.baseurl}}/images/IMG_20190221_234129.jpg)
 
 3.3V is blue, ground is green, and analog out is yellow. I know my colors are all wrong :p I was working with what I had.
+
+The analog output produced by any IR sensor is inversly proportional to the distance it measures which means that IR sensors are more acurate the smaller the distance and the data is not imediatly useful. To get useful output data I roughly followed the steps on [this](https://home.roboticlab.eu/en/examples/sensor/ir_distance) webpage. 
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+
+
 
 
 
