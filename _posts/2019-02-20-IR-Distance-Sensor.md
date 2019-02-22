@@ -24,7 +24,7 @@ distance = (1 / (a * analogIn + b)) - k
 
 I wasent super concerned about precision in this proof of concept so to find a, b, and k I measured some known distances and recorded the corrisponding analog output.
 
-| Analog value (0-1023) | Distance (mm) |
+| Analog value (0-1023)  | Distance (mm) |
 | ----------- | ----------- |
 | 971 | 20 |
 | 810 | 25 |
