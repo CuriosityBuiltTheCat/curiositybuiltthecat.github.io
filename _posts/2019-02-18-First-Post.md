@@ -1,5 +1,8 @@
 ---
-published: true
+categories: blog
+layout: post
+published: false
+title: First Post3
 ---
 No one should ever see this post but if for some reason someone finds it, Ive been wanting to archive some of the projects I do for awhile now. Thats what I want to use this site for. this post will just be tests of how to use jekyll and prose
 **bold**
