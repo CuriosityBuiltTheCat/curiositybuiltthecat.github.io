@@ -24,8 +24,8 @@ distance = (1 / (a * analogIn + b)) - k
 
 I wasent super concerned about precision in this proof of concept so to find a, b, and k I measured some known distances and recorded the corrisponding analog output.
 
-| Analog value (0-1023)  | Distance (mm) |
-| ----------- | ----------- |
+| Analog value (0-1023) | Distance (mm) |
+|---+---|
 | 971 | 20 |
 | 810 | 25 |
 | 440 | 60 |
@@ -36,6 +36,14 @@ I wasent super concerned about precision in this proof of concept so to find a, 
 I set up the data, variables, and distance funtion in a desmos plot and adjusted my a, b and k until the plot fit the points.
 
 ![analogIn vs distance.PNG]({{site.baseurl}}/images/analogIn vs distance.PNG)
+
+I ended up with a = 0.000043, b = -0.005, and k = 15. In order to make the calculation a little easier on your microcontroller the roboticlab page recommened rearanging some of the terms:
+
+distance = (1 / (a * analogIn + b)) - k
+distance = (1 / a) / (analogIn + B / a) - k
+solving for 1/a and B/a, I got this final formula:
+distance = (16667 / (analogIn - 133)) + 15
+
 
 
 
