@@ -24,8 +24,8 @@ distance = (1 / (a * analogIn + b)) - k
 
 I wasent super concerned about precision in this proof of concept so to find a, b, and k I measured some known distances and recorded the corrisponding analog output.
 
-| Analog value (0-1023) | Distance (mm): |
-|===+===|
+| Analog value (0-1023) | Distance (mm) |
+|===+===:|
 | 971 | 20 |
 | 810 | 25 |
 | 440 | 60 |
@@ -39,10 +39,10 @@ I set up the data, variables, and distance funtion in a desmos plot and adjusted
 
 I ended up with a = 0.000043, b = -0.005, and k = 15. In order to make the calculation a little easier on your microcontroller the roboticlab page recommened rearanging some of the terms:
 
-distance = (1 / (a * analogIn + b)) - k
-distance = (1 / a) / (analogIn + B / a) - k
-solving for 1/a and B/a, I got this final formula:
-distance = (16667 / (analogIn - 133)) + 15
+| distance = (1 / (a * analogIn + b)) - k            |
+| distance = (1 / a) / (analogIn + B / a) - k        |
+| solving for 1/a and B/a, I got this final formula: |
+| distance = (16667 / (analogIn - 133)) + 15         |
 
 Now that I was reading distance (which was pretty cool by itself) I wanted to implent it on a robot. This chassis is from a previous project, a fairyweight combat robot with a custom controls system. I plan to one day document that project on this blog, but for now just know that it uses an arduino pro mini as the "brain" and an L293D duel H-bridge for driving the motors. (these components are underneath the robot)
 
