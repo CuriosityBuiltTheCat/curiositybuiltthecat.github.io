@@ -2,7 +2,7 @@
 categories: blog
 layout: post
 published: false
-title: 2019-2-27-Power-Supply-Enclosure.md
+title: Power Supply Enclosure
 ---
 ## A New Post
 
