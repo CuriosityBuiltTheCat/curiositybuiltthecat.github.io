@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 title: Acquiring a Cheap Power Supply
 ---
 For years I have tested my electronics projects with 'improvised power supplys', usually 5V from my laptop USB port, some AA batteries, or a lipo battery. I decided I had enough of that. 
@@ -21,5 +21,3 @@ Before my 4th attempt I changed the model from a single bodie design to a split 
 ![]({{site.baseurl}}/images/PowerSupply8.png)
 
 the zipties wern't too much of a pain but If I make a V2 I will definatly use bolts.
-
-
