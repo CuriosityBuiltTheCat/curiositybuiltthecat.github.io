@@ -5,11 +5,6 @@ progress on meltybrain so far
 - wheel science
 - various revisions (diameter keeps increasing)
 
-fire bot
-- our plan to make $
-- motors with wheels and encoders
-- treat it like a micromouse (IR sensors)
-
 past robots
 - nanobyte
 - fairybyte
