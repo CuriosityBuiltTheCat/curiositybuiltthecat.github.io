@@ -48,6 +48,6 @@ Now that I was reading distance (which was pretty cool by itself) I wanted to im
 
 ![IMG_20190219_203939.jpg]({{site.baseurl}}/images/IMG_20190219_203939.jpg)
 
-In the first test I wanted to have the robot mantain a constand distance from whatever was infront of it. It drove forward untill in was 20mm from a wall, if it became closer than 20mm it would backup. This is called bang-bang control and it was essentially useless as the robot oscillated dramatically. To improve preformance I switched it to a PD-loop and added a rolling average for the analog inputs. This produced much [better results](https://youtu.be/YmUQSCi_pgA).
+In the first test I wanted to have the robot mantain a constand distance from whatever was infront of it. It drove forward untill in was 20mm from a wall, if it became closer than 20mm it would backup. This is called bang-bang control and it was essentially useless as the robot oscillated dramatically. To improve preformance I switched it to a PD-loop and added a rolling average for the analog inputs. This produced [much better results](https://youtu.be/YmUQSCi_pgA).
 
 There is a lot that can be improved but for now I am going to call this a success, in my next test I am going to rotate the sensor 90 degrees and see if I can get it to follow a wall while remaining a constant distance from it.
