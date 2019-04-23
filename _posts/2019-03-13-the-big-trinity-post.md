@@ -5,7 +5,11 @@ published: true
 title: PyroBot at the Trinity College International Fire Fighting Robot Contest
 ---
 ## The Goal
-the _Trinity College International Fire Fighting Robot Contest_ is A yearly event at which robots are tasked with navigating a simple maze and extingishing a candle somewhere within as quickly as possible. on April 12th I flew up to Hartford Conneticuit to Compete with my robot: Pyrobot. ![pyrobot final.PNG]({{site.baseurl}}/images/pyrobot final.PNG)
+the _Trinity College International Fire Fighting Robot Contest_ is A yearly event at which robots are tasked with navigating a simple maze and extingishing a candle somewhere within as quickly as possible. on 
+April 12th I flew up to Hartford Conneticuit to Compete with my robot: Pyrobot.
+
+![pyrobot final.PNG]({{site.baseurl}}/images/pyrobot final.PNG)
+
 The pyrobot in this picture is very diffrent from the one I flew out with. I had high hopes for PyroBot but as usual, everything is twice as hard as you think it will be. Despite the setbacks I am happy with the project as I was able to pull off a small victory in the end.
 
 ### The Rules
@@ -25,7 +29,10 @@ the third nano I fried by supplying 12V to vin. The documentation says that nano
 On top of the strategic errors surrounding the custom boards, the boards themselves were of poor quality and cause many issues. It was a pain to design them because any jump from one side of the board to the other has to be done with vias, for example all of the arduino headers could only be soldered/accessed on the bottom of the board. The most common physical issue is a trace would break (or in some cases fry) and I would have to run a wire to jump the connection. The worst issue was at one point I ripped about 6 pads off of one section of the board and had to do some very janky wiring to fix it.
 
 ### The Jevois
-If the other issues were thumb tacks, this issue felt like a train spike in the coffin. We only got the robot fully together a couple of days before the competition. At this point we knew we couldnt "do everything", but we at least felt like we could still be competitive.![pyrobyte_all_together.jpg]({{site.baseurl}}/images/pyrobyte_all_together.jpg)
+If the other issues were thumb tacks, this issue felt like a train spike in the coffin. We only got the robot fully together a couple of days before the competition. At this point we knew we couldnt "do everything", but we at least felt like we could still be competitive.
+
+![pyrobyte_all_together.jpg]({{site.baseurl}}/images/pyrobyte_all_together.jpg)
+
 It was then that had had to drop the Jevios. While my friend could get it to find the candle excelently when plugged into the robot, we could not for the life of us get it to spit any of its data out over serial. We worked on this issue till 4:00AM the night before my flight and to this day we dont know what the problem was. I flew into Hartford with a robot that could barely naviage a maze and not only had never seen a candle before but at that point was totally blind.
 
 ## The Bodge
@@ -60,11 +67,3 @@ In the end I did recive the Tiny Robot Award, but what I didnt expect was to be 
 
 ### Side note
 There was one part of the robot that doesnt fit anywhere in this blog, but I feel like I should include. It is mandated by the rules that each robot must be able to detect a 3.8kHz 'start tone' to start its run. This was maybe the most reliable part of my robot but other teams struggled with it. I used a [mic (WITH AN AMP)](https://www.amazon.com/gp/product/B07C3HXPJ9/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) along with a [Fourier transform library](https://github.com/kosme/arduinoFFT) built for arduino to detect the 3.8kHz tone. It took maybe an hour to tune the thresholds but I never had a false positive or a false negative.
-
-
-
-
-
-
-
-
