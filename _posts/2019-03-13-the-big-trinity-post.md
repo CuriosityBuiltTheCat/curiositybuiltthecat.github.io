@@ -29,9 +29,32 @@ If the other issues were thumb tacks, this issue felt like a train spike in the 
 It was then that had had to drop the Jevios. While my friend could get it to find the candle excelently when plugged into the robot, we could not for the life of us get it to spit any of its data out over serial. We worked on this issue till 4:00AM the night before my flight and to this day we dont know what the problem was. I flew into Hartford with a robot that could barely naviage a maze and not only had never seen a candle before but at that point was totally blind.
 
 ## The Bodge
+### Hardware
 When I started this project I pictured rolling up to Hartford with a beatiful well crafted robot that was basically a Micromouse with a fan on it. I'm very much a prefectionist; the robot would be a clean, meticulously designed, and well crafted machine. On Friday night a switch flipped in my head and my mentality changed. I couldnt let perfect be the enemy of good and I just wanted to have the robot work at all. There were minor electrical issues to fix but the main issue was finding and pointing twords the candle. _At the hotel_ I canbalized some of the ir distance sensors off of the frount of the robot and repurposed their photo transistors to instead look for the candle. I arrived at the competition site at 7:15 and was the first person inside the venue. After I set up my pit I spent the next 4 hours fixing minor electrical issues and preparing my robot to be inspected before noon. I knew the bot I had built was small, but at the inspection table I was told my bot was one of the smallest the inspectors had ever seen. I realized that if I could just complete a single run, I would likely win the _tiny robot contest_, doing so became my primary and only goal. 
 
-By 1:00pm I was feeling good about my progress. There after minor electrical issues perodically popped up, but I was able to turn most of my attention on software. I had to throw out a lot of the code I brought with me. We origially planned to move through the maze using a PID based planned path, but I 
+### Software
+By 1:00pm I was feeling good about my progress. There after minor electrical issues perodically popped up, but I was able to turn most of my attention on software. I had to throw out a lot of the code I brought with me. We origially planned to move through the maze using a PID based planned path, but now that I didnt care about my score and time was a huge issue I changed my aproach to that of a blind search. My stratagy had 3 parts:
+
+- A simple right wall following PID-loop using the robots front right distance sensor (this worked well because if the right wall ever "fell away" the robot would turn sharply right)
+- The robot used its last remaming forward facing distance sensor to check if it was about to run into a wall. If a wall was detected it would back up, turn 90 degrees left, and continue to follow the wall.
+- The robot would periodically turn off its IR LEDs and look for IR light. If it detected light above a threshold it knew the candle was nearby, at that point the main loop was done and the robot just had to blow out the candle.
+
+The first Item on this list was the most difficult to implement. I spent a good amount of time trying to tune parts of my PID-loop: the terms, the max speed and the output limits. After awhile I got a legendary suggestion from one of the other compeditors, _rotate the sensor 45 degrees forward_. I rotated the sensor and increased my setpoint, it was like magic. It followed the wall and turned right when the right wall fell away on the first try. I still tuned the PID a bit more but for me it was a small victory after a long list of failures. After that the frount wall detection got working in no time, here is the robot with the two behaviors combined. 
+
+The third part of my stratagy worked quickly as well. Using the three photo transistors the robot could reliably find and even point at the candle. The main issue was the robot had a hard time knowing how far away from the candle it was. I never came up with a cool solution to that problem, I just programed it to drive forward and backward till the candle was out.
+
+### The last big hurdle
+By 4:00 on saturday I was feeling good but still nervous as if I didnt attempt my first two runs by 5:15 they went down as DNFs. I was all set to do a couple more practice runs and then head to the competition fileds when I got hit with a final terrible problem, my BLDC motor wouldnt spin! I spent the next hour and 15 minutes trying diffrent PWM signals, eliminating any potential mechanical issues and I even swaped out the ESC but it never got up to speed. I lost the chance to attempt 2 of my 5 runs and left the event for the day.
+
+### The Busses
+Up untill this point I have left my travel experiance out of this post. If your just here for the robot stuff you can safely skip to the next section. The plane flights into and out of Hartford went well. My bus ride from the airport to my hotel on friday went well. My bus ride from the hotel to the event location saturday morning went well. My bus ride from the event location back to the hotel on Saturday night _did not go well_. The Sun set before I even got to 
+
+
+
+
+
+
+
 
 
 
