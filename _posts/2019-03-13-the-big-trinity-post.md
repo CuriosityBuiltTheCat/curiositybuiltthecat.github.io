@@ -2,9 +2,8 @@
 categories: blog
 layout: post
 published: true
-title: PyroBot at the Trinity College International Fire Fighting Robot Contest
+title: PyroBot at the Trinity College Robot Contest
 ---
-## The Goal
 the _Trinity College International Fire Fighting Robot Contest_ is A yearly event at which robots are tasked with navigating a simple maze and extingishing a candle somewhere within as quickly as possible. on 
 April 12th I flew up to Hartford Conneticuit to Compete with my robot: Pyrobot.
 
