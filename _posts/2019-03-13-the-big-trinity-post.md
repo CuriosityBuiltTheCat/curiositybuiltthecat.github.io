@@ -50,17 +50,16 @@ By 4:00 on saturday I was feeling good but still nervous as if I didnt attempt m
 Sunday was crunch time. I gave up on the BLDC motor and resolved to use a diffrent motor I brought, an impellar fan. I canbalized a spare L293D into basically a mosfet and tacked on the fan with hot glue. I had more sucess than with the BLDC motor (including my first sucsessful unassitsed practice run) but it was not very powerful and not reliable at all. I ended up borrowing a motor and broken fan from another team. I added a "counterweight" to fix the broken fan and that was the last big problem solved. From then on I was just testing and tuning. For me that was the most fun I had; tweaking IR threshholds, time delays, and PID values untill I was satisfied with my robots consitancey. By 1:00pm I was ready for my first run
 
 ### Attempt 1
-I'll cut to the chase, It Worked! Lucky for me the candle was in the first room my bot looked inside (although at that point PyroBot could search almost the entire maze). I was stoaked both because it was incredible how much work it took to just get to that point, and also it ment that I basically had the tiny robot contest in the bag. I foolishly forget to record the run, but afterwards I recorded a [recreation with the same starting conditions](https://youtu.be/EnO5fbiQ0Gs).
+I'll cut to the chase, It Worked! Lucky for me the candle was in the first room my bot looked inside (although at that point PyroBot could search almost the entire maze). It wasent a thrilling run but I was stoaked. For me it was incredible to cluch out a success when not 48 hours ago the robot was blind with no code, and also it ment that I basically had the tiny robot award in the bag. I foolishly forget to record the run, but afterwards I recorded a [recreation with the same starting conditions](https://youtu.be/EnO5fbiQ0Gs).
 
 ### Attepts 2 and 3
 I didnt make any changes for my second run, now in level 2. The run failed because the robot got stuck on the carpets. The drivetrain was already geared to be high speed and low torque, but on top of that I was running the drivtrain at no more than 40% of its max speed. I bumped the drivetrain up to 60% power, but this messed up my PID and turn left function. I re-tuned both parts of the control logic but didnt have the time to thourghly test it. In my third and final attempt PyroBot had no problems with  the carpets, but it ended up getting stuck in one of the rooms and failing the attempt.
 
-### Closing ceremonies
+### Closing Ceremonies
+In the end I did recive the Tiny Robot Award, but what I didnt expect was to be the [Honerable Mention for the Spirit of the Inventor Award](https://trinityrobotcontest.org/winners). The guys that won it really deserved it. They built an antonamous drone that could navigate the maze, it was very cool. In the end I was very happy with the trip. On one hand I flew all the way to connecticut to blow out a single candle, but on the other I learned a lot, met a ton of cool people, and I will definatly be back next year (and Maybe I will start a bit earlier ;p). 
 
-
-## 
-
-
+### Side note
+There was one part of the robot that doesnt fit anywhere in this blog, but I feel like I should include. 
 
 
 
