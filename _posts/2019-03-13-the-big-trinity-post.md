@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 title: PyroBot at the Trinity College International Fire Fighting Robot Contest
 ---
 ## The Goal
