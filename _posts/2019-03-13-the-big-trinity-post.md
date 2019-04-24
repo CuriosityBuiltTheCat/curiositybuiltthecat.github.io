@@ -4,12 +4,6 @@ layout: post
 published: true
 title: PyroBot at the Trinity College Robot Contest
 ---
-TITLE: PYROBOT AT THE TRINITY ROBOT COMPETITION
-POSTED: 2019-04-24
-STATUS: EDITED (JB)
-LOCATION: 
-
-
 The _Trinity College International Fire Fighting Robot Contest_ is a yearly event where robots are tasked with navigating a simple maze and extinguishing a candle somewhere within as quickly as possible. On April 12th I flew up to Hartford, Connecticut to compete with my robot Pyrobot.
 
 ![pyrobot final.PNG]({{site.baseurl}}/images/pyrobot final.PNG)
