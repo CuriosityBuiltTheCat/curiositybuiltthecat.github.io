@@ -19,13 +19,13 @@ If you want to use 3 or 4 servos, you have to breakout PWM pins, 5V, and GND you
 
 ![]({{site.baseurl}}/images/IMG_20190415_203423.jpg)
 
-This alternative controls system consists of two boards: an ESP32 Devkit board, and the Alfredo NoU V1.7. This system has some significant improvements over the Arduino based system:
+The alternative control system consists of two boards: an ESP32 Devkit board, and the Alfredo NoU V1.7. This system has some significant improvements over the Arduino based system:
 
-- The ESP32 has Bluetooth built-in, meaning there is no need for HC-06 chips or SoftwareSerial.
+- The ESP32 has Bluetooth built-in, eliminating the need for HC-06 chips or SoftwareSerial.
 - The board supports **4 servos**, twice as many as the Adafruit motor shield.
-- The lack of SoftwareSerial combined with beefy 5V regulators specifically for servos means that servos are more powerful and less jittery than ever.
-- We will have a custom library available so that using the NoU will be even easier than Arduino and will have more features.
+- The integrated Bluetooth combined with beefy 5V regulators designed for servos means that servos are even more powerful and smoother than ever.
 - The ESP32 is just as easy to program as an Arduino and can be programmed through the Arduino IDE.
-- The NoU can drive four DC motors, just like the Adafruit Motor Shield
+- The Alfredo NoU can drive four DC motors, just like the Adafruit Motor Shield.
+- COMING SOON: We will have a custom library available so that using the NoU will be even easier than Arduino and will have more features.
 
-At kickoff, you will have the option to receive an ESP32 and NoU V1.7 instead of the classic Arduino system in your KOP. If you have any questions about the board or the ESP32 feel free to email me at jrw4561@gmail.com or ping me on discord @Jacob#4883 ('@Jacob \| FAST' on the MiniFRC Discord).
+At the Spring 2019 MiniFRC kickoff, you will have the option to receive an ESP32 and NoU V1.7 instead of the classic Arduino system in your KOP. Up to 20 Alfredo NoU boards will be distributed at the event. If you have any questions about the board or the ESP32 feel free to email me at jrw4561@gmail.com or ping me on discord @Jacob#4883 ('@Jacob \| FAST' on the MiniFRC Discord).
