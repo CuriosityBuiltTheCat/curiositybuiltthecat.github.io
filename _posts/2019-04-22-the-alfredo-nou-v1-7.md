@@ -6,13 +6,13 @@ title: The Alfredo NoU V1.7
 ---
 Classically, MiniFRC Robots have been run using the combination of an Arduino Uno, An Adafruit Motor Shield v1, and an HC-06 Bluetooth chip. While this system has worked well for many robots over the last two years, it has a couple key issues that are not ideal.
 
-### Wires for the HC-06 chips have to be soldered to the motor shield
+### 1) Wires for the HC-06 chips have to be soldered to the motor shield
 Not a big issue but this process can be a roadblock for new teams looking to jump right into robot building. On top of that, weak Dupont headers can cause disconnects during matches.
 
-### SoftwareSerial and servos
+### 2) SoftwareSerial and servos
 In order to talk to the HC-06 chips, the built it library SoftwareSerial is used. SoftwareSerial interferes with the default Servo library, making servos unusable. One workaround for this is to use the SimpleSofwareServo library, but even then servos can be jittery.
 
-### The Adafruit motor shield only supports two servos
+### 3) The Adafruit motor shield only supports two servos
 If anyone wants to use 3 or 4 servos you have to breakout PWM pins, 5V, and GND yourself, yuck!
 
 ## the solution: Introducing the Alfredo NoU!
