@@ -8,7 +8,7 @@ The _Trinity College International Fire Fighting Robot Contest_ is a yearly even
 
 ![pyrobot final.PNG]({{site.baseurl}}/images/pyrobot final.PNG)
 
-The PyroBot in this picture is very different from the one that left the competition. I had high hopes for PyroBot, but as usual everything is twice as hard as you think it will be and takes twice as you think it should. Despite the setbacks, I am happy with the project as I was able to pull off a small victory in the end.
+The PyroBot in this picture is very different from the robot I planned to build. I had high hopes for PyroBot, but as usual everything is twice as hard as you think it will be and takes twice as you think it should. Despite the setbacks, I am happy with the project as I was able to pull off a small victory in the end.
 
 ### The Rules
 I won't go into too much detail, but the gist is that you are allowed to do five total runs of your robot in three levels of increasing difficulty. You may only attempt a harder level once you have completed the one before it. You get 600 points for each level you don't complete (unlike in baseball, lower scores are better). Your total final score is the sum of your best scores on each level. Level 1 is the most simple: you know where all the walls will be and the only obstacle is a stuffed animal randomly placed at one of three possible locations. Level 2 adds carpets, multiple wall configurations, and "decorations" on some of the walls (ie. mirrors and fabric). In Level 3 the two mazes are combined and start you randomly in the first. The goal is two blow out three candles in the second maze as well "rescue a baby" (move a doll from the second maze to the first).
