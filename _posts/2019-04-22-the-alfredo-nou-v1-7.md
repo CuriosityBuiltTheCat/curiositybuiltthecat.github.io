@@ -28,4 +28,4 @@ This alternative controls system consists of two boards: an ESP32 Devkit board, 
 - The ESP32 is just as easy to program as an Arduino and can be programmed through the Arduino IDE.
 - The NoU can drive four DC motors, just like the Adafruit Motor Shield
 
-At kickoff, you will have the option to receive an ESP32 and NoU V1.7 instead of the classic Arduino system in your KOP. If you have any questions about the board or the ESP32 feel free to email me at jrw4561@gmail.com or ping me on discord @Jacob#4883 ('@Jacob | FAST' on the MiniFRC Discord).
+At kickoff, you will have the option to receive an ESP32 and NoU V1.7 instead of the classic Arduino system in your KOP. If you have any questions about the board or the ESP32 feel free to email me at jrw4561@gmail.com or ping me on discord @Jacob#4883 ('@Jacob \| FAST' on the MiniFRC Discord).
