@@ -23,7 +23,7 @@ The alternative control system consists of two boards: an ESP32 Devkit board, an
 
 - The ESP32 has Bluetooth built-in, eliminating the need for HC-06 chips or SoftwareSerial.
 - The board supports **4 servos**, twice as many as the Adafruit motor shield.
-- The integrated Bluetooth combined with beefy 5V regulators designed for servos means that servos are even more powerful and smoother than ever.
+- The integrated Bluetooth combined with beefy 5V regulators designed for servos means that servos are more powerful than ever and have _zero_ jitter.
 - The ESP32 is just as easy to program as an Arduino and can be programmed through the Arduino IDE.
 - The Alfredo NoU can drive four DC motors, just like the Adafruit Motor Shield.
 - COMING SOON: We will have a custom library available so that using the NoU will be even easier than Arduino and will have more features.
