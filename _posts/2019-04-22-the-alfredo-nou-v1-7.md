@@ -4,7 +4,7 @@ layout: post
 published: true
 title: The Alfredo NoU V1.7
 ---
-Classically, MiniFRC robots have been run using a combination of an Arduino Uno, an Adafruit Motor Shield v1, and an HC-06 Bluetooth chip. While this system has worked well for many robots over the last two years, it has a couple key issues that are not ideal.
+Classically, MiniFRC robots have been run using a combination of an Arduino Uno, an Adafruit Motor Shield v1, and an HC-06 Bluetooth chip. While this system has worked well for many robots over the last two years, it has a couple of key issues that are not ideal.
 
 ### 1) Wires for the HC-06 chips have to be soldered to the motor shield
 This is not a big issue, but this process can be a roadblock for new teams looking to jump right into robot building. On top of that, weak Dupont headers can cause disconnects during matches.
