@@ -4,7 +4,7 @@ layout: post
 published: true
 title: Mini Differential Swerve Drive
 ---
-Mini Differential Swerve Drive is a project I started over a year ago. In FIRST Robotics Competition, Swerve Drive is a high-risk high reward drivetrain type that combines the omnidirectional capabilities of mechanism drive with the stellaer traction of normal tank drive. The downside is the mechanical and programming complexity that is required to pull it off. For most teams, it is simply not effort effective to use, but in recent years it has been becoming more popular. For example teams like 2767 _Stryke Force_, 2910 _Jack in the Bot_, and 1323 _MadTown_ have all brought swerve to Einstein finals.
+Mini Differential Swerve Drive is a project I started over a year ago. In FIRST Robotics Competition, Swerve Drive is a high-risk high reward drivetrain type that combines the omnidirectional capabilities of mechanism drive with the stellar traction of normal tank drive. The downside is the mechanical and programming complexity that is required to pull it off. For most teams, it is simply not effort effective to use, but in recent years it has been becoming more popular. For example teams like 2767 _Stryke Force_, 2910 _Jack in the Bot_, and 1323 _MadTown_ have all brought swerve to Einstein finals.
 
 Yes, swerve drive is very cool, but I am not a fan of the bulky, heavy, and complicated modules. I would normally have never touched swerve drive but a [post on Chief Delphi](https://www.chiefdelphi.com/t/pic-differential-swerve-module-971/160525) caught my eye about a year and a half ago.
 ![]({{site.baseurl}}/images/87184d96156d92dc88a3e1ce8f5b0717c6e520d9_2_1035x750.jpeg)
