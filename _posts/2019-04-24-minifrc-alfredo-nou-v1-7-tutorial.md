@@ -19,7 +19,7 @@ On NoUs, some areas of the board will get warm or hot depending on load. Be care
 ## 5V regulators
 Every NoU has one of two diffrent packages of 5V regulator, DPAK and TO-220. The board was designed for TO-220 but our bulk order didn't arrive in time so most boards use a less powerful regulator, the DPAK. On DPAK NoU's motors should function no different than boards with the TO-220, but **we recommend using no more than a single 9g servo**. Under the right conditions you could use more but you do so at your own risk. Our shipment of 220-regulators should arrive later this week, once they do we will do three things to fix DPAK boards:
  - we can swap the regulator on you board out for a TO-220
- - you can trade in your whole DPARK board for a TO-220 board
+ - you can trade in your whole DPAK board for a TO-220 board
  - we can give you a TO-220 regulator and you can swap the regulators yourself
 
 ![]({{site.baseurl}}/images/5v regs.png)
