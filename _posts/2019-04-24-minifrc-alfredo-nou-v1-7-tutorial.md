@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 title: MiniFRC Alfredo NoU V1.7 Tutorial
 ---
 ## ESP32s
@@ -23,7 +23,7 @@ We realized at kickoff that half of the ESP32s we bought were unusable due to th
 ![]({{site.baseurl}}/images/image0.jpg)
 
 ## Getting started with the NoU
-You can use the Arduino IDE to upload code to the ESP32 by following these instructions. First you have to install the board files. In the arduino IDE naviate to File > Prefrences and paste this link into the Additional Boards Manager URLs section:
+You can use the Arduino IDE to upload code to the ESP32 by following these instructions. First you have to install the board files. In the arduino IDE navigate to File > Preferences and paste this link into the Additional Boards Manager URLs section:
 
 https://dl.espressif.com/dl/package_esp32_index.json
 
@@ -31,7 +31,7 @@ It should look like this:
 
 ![json link.png]({{site.baseurl}}/images/json link.png)
 
-Then naviage to Tools > Board > Boards Manager... and search for "esp32". install the board files by espressiff systems.
+Then navigate to Tools > Board > Boards Manager... and search for "esp32". install the board files by Espressif Systems.
 
 It should look like this:
 
@@ -41,7 +41,7 @@ Finally, whenever you uploading code press the "boot" button on the ESP32.
 
 ## Library and Default code
 
-At [this](https://github.com/Dinokaiz2/Alfredo-NoU) link you can find our library and default code to help you get started with your NoU. It is currently under heavy developement so expect updates in the coming days and weeks.
+At [this](https://github.com/Dinokaiz2/Alfredo-NoU) link you can find our library and default code to help you get started with your NoU. It is currently under heavy development so expect updates in the coming days and weeks.
 
 ## Board CAD, dimensions, and schematic
 
@@ -52,12 +52,3 @@ At [this](https://github.com/Dinokaiz2/Alfredo-NoU) link you can find our librar
 ![]({{site.baseurl}}/images/NoU 1.7 dims.png)
 
 ![]({{site.baseurl}}/images/unknown-1.png)
-
-
-
-
-
-
-
-
-
