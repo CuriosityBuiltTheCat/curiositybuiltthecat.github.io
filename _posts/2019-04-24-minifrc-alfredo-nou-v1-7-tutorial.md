@@ -23,21 +23,36 @@ We realized at kickoff that half of the ESP32s we bought were unusable due to th
 ![]({{site.baseurl}}/images/image0.jpg)
 
 ## Getting started with the NoU
-When uploading code to an ESP32 most of the steps are the same as an arduino. Installing the boards files (only do this once)
-
-In the arduino IDE naviate to File > Prefrences and paste this link into the Additional Boards Manager URLs section:
+You can use the Arduino IDE to upload code to the ESP32 by following these instructions. First you have to install the board files. In the arduino IDE naviate to File > Prefrences and paste this link into the Additional Boards Manager URLs section:
 
 https://dl.espressif.com/dl/package_esp32_index.json
 
-it should look like this:
+It should look like this:
 
-then naviage to Tools > Board > Boards Manager... and search for "esp32". install the board files by espressiff systems
+![json link.png]({{site.baseurl}}/images/json link.png)
 
-it should look like this:
+Then naviage to Tools > Board > Boards Manager... and search for "esp32". install the board files by espressiff systems.
 
-2) whenever you uploading code
+It should look like this:
 
-you 
+![boards manager esp32.png]({{site.baseurl}}/images/boards manager esp32.png)
+
+Finally, whenever you uploading code press the "boot" button on the ESP32.
+
+## Library and Default code
+
+At [this](https://github.com/Dinokaiz2/Alfredo-NoU) link you can find our library and default code to help you get started with your NoU. It is currently under heavy developement so expect updates in the coming days and weeks.
+
+## Board CAD, dimensions, and schematic
+
+[Alfredo NoU v1.7 SLDPRT](https://drive.google.com/open?id=1-XDGzYLNQDt2PNEBpxmt4ZZ6uxIaosUd)
+
+[Alfredo NoU v1.7 STEP](https://drive.google.com/open?id=16myjRSVEqPulHQl5nlFSAyRZgfUEy22l)
+
+![]({{site.baseurl}}/images/NoU 1.7 dims.png)
+
+![]({{site.baseurl}}/images/unknown-1.png)
+
 
 
 
