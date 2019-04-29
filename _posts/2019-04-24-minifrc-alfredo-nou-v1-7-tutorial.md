@@ -5,7 +5,7 @@ published: true
 title: MiniFRC Alfredo NoU V1.7 Tutorial
 ---
 ## ESP32s
-We realized at kickoff that half of the ESP32s we bought were unusable due to them having the wrong pinouts, so we couldn't give them to teams. If you weren't able to get an ESP32, [you can buy one with the correct pinout here](https://www.amazon.com/gp/product/B071XP56LM/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1). (If you find a difrent listing be sure the pinout is correct).
+We realized at kickoff that half of the ESP32s we bought were unusable due to them having the wrong pinouts, so we couldn't give them to teams. If you weren't able to get an ESP32, [you can buy one with the correct pinout here](https://www.amazon.com/gp/product/B071XP56LM/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1). (If you find a different listing be sure the pinout is correct).
 
 ## Important safety information
 **The most important thing to do when getting started with your NoU is to plug the ESP32 in correctly. If you install the ESP32 incorrectly and power up the board you will likely fry your ESP32.**
