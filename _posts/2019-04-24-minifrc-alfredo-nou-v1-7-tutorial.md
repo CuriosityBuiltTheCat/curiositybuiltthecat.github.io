@@ -19,7 +19,7 @@ We realized at kickoff that half of the ESP32s we bought were unusable due to th
 
 ![]({{site.baseurl}}/images/5v regs.png)
 
-3) On NoUs, some areas of the board will get warm or hot depending on load. Be careful about touching these areas. If you put your finger on an area of the board and cant hold it there for more than 3 seconds **remove power from your board immediately and contact us**. Here are areas of the board to watch out for:
+3) On NoUs, some areas of the board will get warm or hot depending on load. Be careful about touching these areas. If you put your finger on an area of the board and can't hold it there for more than 3 seconds **remove power from your board immediately and contact us**. Here are areas of the board to watch out for:
 
 ![]({{site.baseurl}}/images/image0.jpg)
 
@@ -38,7 +38,7 @@ It should look like this:
 
 ![boards manager esp32.png]({{site.baseurl}}/images/boards manager esp32.png)
 
-Finally, whenever you uploading code press the "boot" button on the ESP32.
+Finally, watch the console when you go to upload code. After a couple of seconds "Connecting" along with dots and dashes will appear. When this happens press the "boot" button on the ESP32 and your code will be uploaded.
 
 ## Library and Default code
 
