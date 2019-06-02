@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: true
+published: false
 title: MiniFRC Alfredo NoU V1.7 Tutorial
 ---
 ## ESP32s
