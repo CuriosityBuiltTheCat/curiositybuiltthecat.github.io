@@ -6,7 +6,7 @@ title: Open Source MiniFRC Climber
 ---
 ![IMG_20200502_131455.jpg]({{site.baseurl}}/images/IMG_20200502_131455.jpg)
     
-MiniFRC has an interesting history of end-game tasks. The interest lies in the fact that in most games, no more than one or two robots ended up regularly completing them. Climbing the tower in the Stronghold game was never attempted. A handful of robots could climb in Power Up and Deep Space but not many. The one exception was the 2017 game, which used the Steamworks rope climbing endgame task. Nearly half of robots that year could climb, likely because building a winch with velcro is much easier than any of the mechanisms needed in other years.
+MiniFRC has an interesting history of end-game tasks. This is because in most games, no more than one or two robots ended up regularly completing them. Climbing the tower in the Stronghold game was never attempted. A handful of robots could climb in Power Up and Deep Space but not many. The one exception was the 2017 game, which used the Steamworks rope climbing endgame task. Nearly half of robots that year could climb, likely because building a winch with velcro is much easier than any of the mechanisms needed in other years.
 
 My point is that end-game tasks in MiniFRC are hard, and MiniFRC: Infinite Recharge is no exception. I created and posted this design because I am hoping to see a lot of climbing robots this year. B) 
 
