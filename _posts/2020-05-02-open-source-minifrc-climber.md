@@ -22,7 +22,10 @@ I want to make this design parametric and clean it up more, but I figured I shou
 
 As for the motor, I used a 290 RPM N20 motor for all of my testing. In theory you could use a 650 RPM motor if your robot is under ~1 kg but it’s probably not worth it. Even the 290 RPM motor lifts my 700g test chassis in about a second.
 
-Motor          Torque            Torque/pitch radius = maximum force
-290 RPM	       1.55 kg-cm        2.03 kg
-650 RPM        0.75 kg-cm        0.98 kg
-1350 RPM       0.25 kg-cm        0.32 kg
+Motor		Torque			Torque/pitch radius = maximum force
+
+290 RPM		1.55 kg-cm		2.03 kg
+
+650 RPM		0.75 kg-cm		0.98 kg
+
+1350 RPM	0.25 kg-cm		0.32 kg
