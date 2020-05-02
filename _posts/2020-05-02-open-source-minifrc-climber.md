@@ -20,7 +20,7 @@ My point is that end-game tasks in MiniFRC are hard, and MiniFRC: Infinite Recha
 
 I wanted to make this design parametric and clean it up more, but I figured I should go ahead and make what I have public. The design consists of three main 3d printed parts: a mount, the rack, and a pinion. I intentionally left no bolt holes or anything on the mount, you can CAD on your own or just hot glue it to your chassis. The rack and the pinion require some decent tolerances, you may need to adjust your printers XY-compensation to have them print correctly. All parts should be printed without support material. Assembly is fairly straightforward, don't forget to add a couple zipties to keep the climber together.
 
-As for the motor, I used a 290 RPM N20 motor for all of my testing. In theory you could use a 650 RPM motor if your robot is under ~1 kg but it’s probably not worth it. Even the 290 RPM motor lifts my 700g test chassis in about a second.
+As for the motor, I used a [290 RPM N20 motor](https://alfredoelectronics.github.io/products/n20-motor/) for all of my testing. In theory you could use a 650 RPM motor if your robot is under ~1 kg but it’s probably not worth it. Even the 290 RPM motor lifts my 700g test chassis in about a second.
 
 Motor-------Torque----------Torque/pitch radius = maximum force
 
