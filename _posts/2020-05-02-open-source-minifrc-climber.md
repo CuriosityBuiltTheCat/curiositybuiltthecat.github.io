@@ -10,11 +10,11 @@ My point is that end-game tasks in MiniFRC are hard, and MiniFRC: Infinite Recha
 
 ![Minifrc climber skdwrks.png]({{site.baseurl}}/images/Minifrc climber skdwrks.png)
 
-[SLDPRT zip](https://drive.google.com/open?id=1ETVyFEv6Q3soigAOWNp2srHNfdwMz0kP)
+[SLDPRT zip](https://drive.google.com/file/d/1ETVyFEv6Q3soigAOWNp2srHNfdwMz0kP/view?usp=sharing)
 
-[STEP Files](https://drive.google.com/open?id=10dSCo-1z4OkrMnQXhlyaSgPcRo47-Iiw)
+[STEP Files](https://drive.google.com/file/d/10dSCo-1z4OkrMnQXhlyaSgPcRo47-Iiw/view?usp=sharing)
 
-[STL zip](https://drive.google.com/open?id=1UNVwLxh0FrK7LA274SeD1Ul8pp816zmP)
+[STL zip](https://drive.google.com/file/d/1UNVwLxh0FrK7LA274SeD1Ul8pp816zmP/view?usp=sharing)
 
 I wanted to make this design parametric and clean it up more, but I figured I should go ahead and make what I have public. The design consists of three main 3d printed parts: a mount, the rack, and a pinion. I intentionally left no bolt holes or anything on the mount, you can CAD on your own or just hot glue it to your chassis. The rack and the pinion require some decent tolerances, you may need to adjust your printers XY-compensation to have them print correctly. All parts should be printed without support material. Assembly is fairly straightforward, don't forget to add a couple zipties to keep the climber together.
 
